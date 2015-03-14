@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Mavenized JCuda</title>
+  <meta name="description" content="Mavenized JCuda">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Mavenized JCuda</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Mavenized JCuda</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/MysterionRise/mavenized-jcuda/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/MysterionRise/mavenized-jcuda/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/MysterionRise/mavenized-jcuda" class="code">View Mavenized JCuda on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="mavenized-jcuda" class="anchor" href="#mavenized-jcuda" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mavenized JCuda</h1>
+
+<p>Features:</p>
+
+<ul>
+<li>Currently support <em>JCuda 0.5.0, 0.5.5, 0.6.0RC</em> (windows-i386, windows-x86_64), <em>0.6.0, 0.6.5</em> (windows-i386, windows-x86_64, unix-x86_64, mac-x86_64)</li>
+<li>Local Maven repo with 5 sets of native libs (windows-i386, windows-x86_64, unix-i386, unix-x86_64, mac-x86_64)</li>
+<li>Auto detection of OS family name and it's architecture (it's choose needed dependencies automatically)</li>
+<li>Running any main class, that contained JCuda code easily (without classpath hell, just run Maven goal)</li>
+</ul>
+
+<p>How to run JCuda code:</p>
+
+<ul>
+<li>You need to install Cuda (5.0, 5.5, 6.0, 6.5) for your platform <a href="https://developer.nvidia.com/cuda-downloads" title="here">here</a>
+</li>
+<li>Set property <em></em> in pom.xml to what you really use, e.g. 0.5.0 for Cuda 5.0, etc. (Cuda 6.5 - 0.6.5)
+
+<ul>
+<li>If you run <strong>JCuda 0.6.0RC</strong> and higher on <strong>Windows</strong> platform everything is ok</li>
+<li>If you run <strong>JCuda 0.5.5</strong> and lower on <strong>Windows</strong> or <strong>Unix</strong> platform - you should set profile manually by adding <em>-P windows-x86_64_old</em>
+or <em>-P windows-x86_old</em> or <em>-P unix-x86_64_old</em>, etc. to <em>mvn clean package</em> command, depends on architecture you use.
+For more info about <strong>Maven</strong> profiles take a look <a href="http://maven.apache.org/guides/introduction/introduction-to-profiles.html" title="here">here</a>
+</li>
+<li>If you run <strong>JCuda 0.6.0</strong> and higher on <strong>Unix x86_64</strong> platform - everything is ok</li>
+<li>If you run <strong>JCUda 0.6.0</strong> and higher on <strong>Mac x86_64</strong> - everything is ok</li>
+</ul>
+</li>
+<li>Call <em>mvn clean package</em> to build project (it will copy all dependencies to <em>target/lib</em> dir)</li>
+<li>Call <em>mvn exec:exec</em> to run main class (org.mystic.cuda.JCudaRuntimeTest) with "Hello, JCuda" sample :)</li>
+<li>If you want to run code directly from your IDE without <strong>Maven</strong> - you could do it via <em>Run</em> command in most of the IDE (Intellij IDEA, Eclipse, Netbeans, etc.) All you need to do - is to add property <em>-Djava.library.path=target/lib</em> (more information is on Stackoverflow - <a href="http://stackoverflow.com/q/28333226/2663985">http://stackoverflow.com/q/28333226/2663985</a>)</li>
+<li>???</li>
+<li>Fork! Write your own JCuda code! Run! Report bugs! Support!</li>
+</ul>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/MysterionRise" class="avatar"><img src="https://avatars1.githubusercontent.com/u/956191?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/MysterionRise">MysterionRise</a> maintains <a href="https://github.com/MysterionRise/mavenized-jcuda">Mavenized JCuda</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/MysterionRise/mavenized-jcuda/tarball/master" class="tar">tar</a><a href="https://github.com/MysterionRise/mavenized-jcuda/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
