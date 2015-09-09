@@ -46,7 +46,15 @@
 <ul>
 <li>You need to install Cuda (5.0, 5.5, 6.0, 6.5, 7.0) for your platform <a href="https://developer.nvidia.com/cuda-downloads" title="here">here</a>
 </li>
-<li>Set property <em></em> in pom.xml to what you really use, e.g. 0.5.0 for Cuda 5.0, etc. (Cuda 6.5 - 0.6.5)
+<li>
+<p>Set property <em></em> in pom.xml to what you really use, e.g. 0.5.0 for Cuda 5.0, etc. (Cuda 6.5 - 0.6.5)</p>
+
+<ul>
+<li>It looks like right now only <strong>0.7.0a</strong> version is usable due to adding of new library in 0.7.0a <strong>JCuda</strong>
+</li>
+</ul>
+
+<p><strong>OBSOLETE</strong> [at least for now]</p>
 
 <ul>
 <li>If you run <strong>JCuda 0.6.0RC</strong> and higher on <strong>Windows</strong> platform everything is ok</li>
@@ -57,8 +65,11 @@ For more info about <strong>Maven</strong> profiles take a look <a href="http://
 <li>If you run <strong>JCuda 0.6.0</strong> and higher on <strong>Unix x86_64</strong> platform - everything is ok</li>
 <li>If you run <strong>JCUda 0.6.0</strong> and higher on <strong>Mac x86_64</strong> - everything is ok</li>
 </ul>
+
+<p><strong>OBSOLETE</strong> [end of obsolete part]</p>
 </li>
-<li>Call <em>mvn clean package</em> to build project (it will copy all dependencies to <em>target/lib</em> dir)
+<li>
+<p>Call <em>mvn clean package</em> to build project (it will copy all dependencies to <em>target/lib</em> dir)</p>
 
 <ul>
 <li>Users who configure a repository manager like Nexus should add option <em>-Dmaven.repo.local=repo</em> to the <em>mvn clean package</em> command.</li>
