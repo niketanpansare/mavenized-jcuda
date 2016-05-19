@@ -3,10 +3,10 @@
   <groupId>org.mystic</groupId>
   <artifactId>mavenized-jcuda</artifactId>
   <versioning>
-    <release>0.7.5</release>
+    <release>0.7.0a</release>
     <versions>
-      <version>0.7.5</version>
+      <version>0.7.0a</version>
     </versions>
-    <lastUpdated>20160519180018</lastUpdated>
+    <lastUpdated>20160519180243</lastUpdated>
   </versioning>
 </metadata>
