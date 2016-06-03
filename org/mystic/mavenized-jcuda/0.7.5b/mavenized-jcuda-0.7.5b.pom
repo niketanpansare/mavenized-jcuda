@@ -18,44 +18,44 @@
             <groupId>jcuda</groupId>
             <artifactId>jcublas</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcudnn</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcuda</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcufft</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcurand</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcusparse</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
         <dependency>
             <groupId>jcuda</groupId>
             <artifactId>jcusolver</artifactId>
             <version>${jcuda.version}</version>
-            <optional>true</optional>
-        </dependency>
+            
+        <optional>true</optional></dependency>
     </dependencies>
     <repositories>
         <repository>
@@ -226,64 +226,64 @@
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusolver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
         <!--New profile for JCuda version 0.6.0RC for Win-x86 and higher
@@ -309,56 +309,56 @@
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                    <optional>true</optional>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
         <!--New profile for JCuda version 0.6.0 for Linux-x86_64 and higher
@@ -383,57 +383,65 @@
                     <artifactId>libJCublas2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusolver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                    
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
 
@@ -460,57 +468,57 @@
                     <artifactId>libJCublas2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusolver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
 
@@ -537,57 +545,57 @@
                     <artifactId>libJCublas2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusolver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
 
@@ -614,56 +622,56 @@
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dylibJ.version}</classifier>
                     <type>dylib</type>
-                </dependency>
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
 
@@ -687,56 +695,64 @@
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
         <!--Out of date profile for JCuda versions 0.5.0, 0.5.5
@@ -758,56 +774,64 @@
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>JCusparse2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${dllJ.version}</classifier>
                     <type>dll</type>
-                </dependency>
+                    
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
         <!--Out of date profile for JCuda versions 0.5.0, 0.5.5
@@ -828,57 +852,57 @@
                     <artifactId>libJCublas2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
         <!--Out of date profile for JCuda versions 0.5.0, 0.5.5 for Linux-x86
@@ -903,57 +927,57 @@
                     <artifactId>libJCublas2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCublas</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaDriver</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCudaRuntime</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCufft</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCurand</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
                 <dependency>
                     <groupId>jcuda</groupId>
                     <artifactId>libJCusparse2</artifactId>
                     <version>${jcuda.version}</version>
                     <classifier>${libJ.version}</classifier>
-                    <type>so</type><optional>true</optional>
-                </dependency>
+                    <type>so</type>
+                <optional>true</optional></dependency>
             </dependencies>
         </profile>
     </profiles>
